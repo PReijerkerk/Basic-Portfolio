@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
     <meta charset="utf-8" />
@@ -10,7 +10,7 @@
 <body>
     <div class="header-container">
         <header>
-            <h1>Peter Reijerkerk</h1>
+            Peter Reijerkerk
         </header>
 
         <nav>
@@ -24,19 +24,19 @@
 
     <div class="main-container">
         <section id="contact-form">
-            <form action="/action_page.php">
-                Name:<br>
-                <input type="text" name="Name" value=""><br>
-                Email:<br>
-                <input type="text" name="Email" value=""><br>
-                Message:<br>
-                <input type="text" name="Message" value=""><br><br>
-                <input type="submit" value="Submit">
-              </form>
+            <form id="contact" action="login.php" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" placeholder="John Doe"><br>
+                <label for="email">Email</label><br>
+                <input type="text" name="email" placeholder="example@email.com"><br>
+                <label for"textfield">Message</label><br>
+                <textarea id="textfield" rows="7"></textarea><br>
+                <button class="btn" type="submit" name="submit">Submit</button>
+            </form>
         </section>
 
         <section id="social-links">
-            <h2>Social Media</h2>
+            <h3>Social Media</h3>
             <ul>
                 <!--Insert relevant social media links here-->
                 <li><a href="https://github.com/PReijerkerk"><img class="icon" src="assets/images/GitHub.png" alt="Github Profile"></a></li>
