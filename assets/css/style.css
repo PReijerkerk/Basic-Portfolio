@@ -5,7 +5,7 @@
 body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 30px;
+    line-height: 20px;
     text-align: left;
     width: 960px;
 }
@@ -112,7 +112,7 @@ footer {
     overflow: auto;
     margin: 0 auto;
     background-image: url("../images/what-the-hex.png");
-    height: 600px;
+    height: 650px;
     width: 100%;
     border-bottom: 5px solid #4aaaa5;
 }
@@ -157,10 +157,10 @@ footer {
     float: right;
     padding: 10px;
     width: 270px;
-    top: 30px;
+    top: 10px;
     text-align: center;
     margin-right: 125px;
-    margin-top: 30px;
+    margin-top: -5px;
 }
 
 #main-bio,
@@ -180,13 +180,14 @@ footer {
 }
 
 #contact-form {
-    height: 500px;
+    height: 400px;
     padding: 20px;
 }
 
 #portfolio {
     padding: 20px;
-    height: 500px;
+    height: 400px;
+    overflow: auto;
 }
 
 #bio-image {
